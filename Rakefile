@@ -13,5 +13,5 @@ task :run do
 end
 
 task :test do
-  ruby 'spec/parser_spec.rb'
+  ruby 'smart_pension.rb ./spec/sample.log'
 end
